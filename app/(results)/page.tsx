@@ -15,12 +15,12 @@ const ResultsPage = () => {
         <div className='p-6 text-xl font-bold text-light-lavender'>
           Your Result
         </div>
-        <div className='flex flex-col items-center justify-center bg-gradient-to-t from-persian-blue to-violet-blue rounded-full h-40 w-40'>
+        <div className='flex flex-col items-center justify-center bg-gradient-to-t from-persian-blue to-violet-blue rounded-full h-40 w-40 text-white'>
           <div className='text-6xl font-bold'>76</div>
           <div className='text-sm opacity-50'>of 100</div>
         </div>
-        <div className='font-semibold text-2xl'>Great</div>
-        <div className='px-10 pb-8 text-sm opacity-70 text-center'>
+        <div className='font-semibold text-2xl text-white'>Great</div>
+        <div className='px-10 pb-8 text-sm opacity-70 text-center text-white'>
           You scored higher than 65% of the people who have taken these tests.
         </div>
       </div>
