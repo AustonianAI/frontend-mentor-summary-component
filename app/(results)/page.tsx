@@ -10,7 +10,7 @@ import data from "@/data.json";
 
 const ResultsPage = () => {
   return (
-    <div className='flex flex-col md:flex-row w-screen h-screen md:h-96 md:w-1/2 bg-white md:rounded-2xl shadow-md overflow-hidden'>
+    <div className='flex flex-col md:flex-row w-screen h-screen md:h-96 md:w-1/2 md:max-w-2xl bg-white md:rounded-2xl shadow-md overflow-hidden'>
       <div className='flex flex-col w-full md:w-1/2 rounded-b-3xl md:rounded-2xl items-center gap-y-2 bg-gradient-to-b from-light-slate-blue to-light-royal-blue'>
         <div className='p-6 text-xl font-bold text-light-lavender'>
           Your Result
